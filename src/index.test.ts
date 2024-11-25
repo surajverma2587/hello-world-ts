@@ -6,6 +6,6 @@ describe("app", () => {
 
     app();
 
-    expect(consoleSpy).toHaveReturnedWith("Hello World");
+    expect(consoleSpy).toHaveBeenCalledWith("Hello World");
   });
 });
